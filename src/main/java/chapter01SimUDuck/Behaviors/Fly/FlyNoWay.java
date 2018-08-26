@@ -1,4 +1,6 @@
-package chapter01SimUDuck;
+package chapter01SimUDuck.Behaviors.Fly;
+
+import chapter01SimUDuck.Behaviors.Fly.FlyBehavior;
 
 public class FlyNoWay implements FlyBehavior {
 

@@ -1,4 +1,8 @@
-package chapter01SimUDuck;
+package chapter01SimUDuck.Ducks;
+
+import chapter01SimUDuck.Behaviors.Fly.FlyWithWings;
+import chapter01SimUDuck.Behaviors.Quack.Quack;
+import chapter01SimUDuck.Ducks.Duck;
 
 public class MallardDuck extends Duck {
 

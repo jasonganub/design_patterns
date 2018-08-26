@@ -1,4 +1,6 @@
-package chapter01SimUDuck;
+package chapter01SimUDuck.Behaviors.Quack;
+
+import chapter01SimUDuck.Behaviors.Quack.QuackBehavior;
 
 public class Squeak implements QuackBehavior {
 

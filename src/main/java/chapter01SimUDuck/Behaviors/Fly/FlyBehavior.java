@@ -1,4 +1,4 @@
-package chapter01SimUDuck;
+package chapter01SimUDuck.Behaviors.Fly;
 
 public interface FlyBehavior {
 

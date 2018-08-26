@@ -1,4 +1,7 @@
-package chapter01SimUDuck;
+package chapter01SimUDuck.Ducks;
+
+import chapter01SimUDuck.Behaviors.Fly.FlyBehavior;
+import chapter01SimUDuck.Behaviors.Quack.QuackBehavior;
 
 public abstract class Duck {
 
@@ -6,6 +9,14 @@ public abstract class Duck {
     QuackBehavior quackBehavior;
 
     public Duck() {
+    }
+
+    public void setFlyBehavior(FlyBehavior flyBehavior) {
+        this.flyBehavior = flyBehavior;
+    }
+
+    public void setQuackBehavior(QuackBehavior quackBehavior) {
+        this.quackBehavior = quackBehavior;
     }
 
     public abstract void display();
